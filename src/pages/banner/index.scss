@@ -1,0 +1,60 @@
+.banner_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  word-break: keep-all;
+
+  .row {
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title {
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      h2 {
+
+      margin-bottom: 30px;
+      }
+      a {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+        margin-right: 10px;
+        border-radius: 40px;
+        background: #57BA70;
+        padding: {
+            top: 1rem;
+            bottom: 1rem;
+            left: 3rem;
+            right: 3rem;
+        }
+        &:hover {
+            background-color: #3e8550;
+        }
+    }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .row {
+      .title {
+        font-size: 1.5rem;
+      }
+    }
+    
+  }
+}

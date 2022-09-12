@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Noto Sans TC, sans-serif;
+    
+}
+.App {
+    background-color: #30344D;
+}
+.container {
+    align-items: center;
+
+    padding: {
+        left:40px;
+        right:40px;
+        top:50px;
+        bottom:50px;
+    }
+
+    @media screen and (max-width:768px) {
+        padding: {
+            left:20px;
+            right:20px;
+            top:20px;
+            bottom:20px;
+        }
+        
+    }
+
+}
