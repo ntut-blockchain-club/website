@@ -22,6 +22,15 @@
     display: none;
   }
 
+  .join {
+    background-color: #57BA70;
+    justify-content: center;
+    text-align: center;
+    &:hover {
+      background-color: #3e8550;
+  }
+  }
+
   .logo {
     height: 70%;
     position: absolute;
@@ -43,7 +52,7 @@
       //   color: #57BA70;
       // }
       padding: {
-        top: 0.5rem;
+        top: 0.6rem;
         bottom: 0.5rem;
         left: 1.5rem;
         right: 1.5rem;

@@ -1,7 +1,11 @@
 import "./index.scss";
 import Member_card from "../../components/Member_card";
 
-import daaab from "../../assets/images/daaab.jpeg";
+import daaab from "../../assets/images/directors/daaab.jpeg";
+import kmori from "../../assets/images/directors/kmori.jpg";
+import erina from "../../assets/images/directors/erina.jpg";
+import grapefruit from "../../assets/images/directors/grapefruit.jpg";
+
 function Directors() {
   return (
     <div className="directors_container">
@@ -13,39 +17,65 @@ function Directors() {
             <img src={daaab} alt="" />
             <div className="director_info">
               <h2>顧問</h2>
-              <h2>葛如鈞 <sub>寶博士</sub></h2>
+              <h2>
+                葛如鈞 <sub>寶博士</sub>
+              </h2>
               <p>
-                歷史是共創，社會是共識；當然，也可能反過來。社團是社會的縮影，也是共創與共識，最後放大到整個宇宙。見自己，見天地，見眾生；建自己，建天地，建眾生；元節點，元網路，元宇宙。
+                歷史是共創，社會是共識；當然，也可能反過來。<br />
+                社團是社會的縮影，也是共創與共識，最後放大到整個宇宙。<br />
+                見自己，見天地，見眾生；建自己，建天地，建眾生；元節點，元網路，元宇宙。
               </p>
             </div>
           </div>
           <div className="director">
-            <img src={daaab} alt="" />
+            <img src={erina} alt="" />
             <div className="director_info">
               <h2>第一任社長</h2>
-              <h2>黃宥維</h2>
+              <h2>陳又萍</h2>
               <p>
-                abcdefg
+                Hello,consensus！ <br />
+                區塊鏈的世界大門已經敞開
+                <br />
+                歡迎加入！
+                <br />
+                不管你是誰、什麼角色、什麼切入點
+                <br />
+                都會是重要的節點之一
+                <br />
+                一起來好好體驗「共識」
+                <br />
               </p>
             </div>
           </div>
           <div className="director">
-            <img src={daaab} alt="" />
+            <img src={kmori} alt="" />
             <div className="director_info">
               <h2>第二任社長</h2>
-              <h2>黃宥維</h2>
+              <h2>張凱森</h2>
               <p>
-                abcdefg
+                別人恐懼我貪婪
+                <br />
+                別人小虧我破產
+                <br />
+                又虧錢了嗎？別擔心
+                <br />
+                只要想想薩爾瓦多總統
+                <br />
+                想想幣安創辦人趙長鵬
+                <br />
+                心情就會好起來了
+                <br />
               </p>
             </div>
           </div>
           <div className="director">
-            <img src={daaab} alt="" />
+            <img src={grapefruit} alt="" />
             <div className="director_info">
               <h2>第三任社長</h2>
               <h2>黃宥維</h2>
               <p>
-                abcdefg
+                人類社會就如同區塊鏈的共識，<br />在不同的想法中遵循最長鏈原則；<br />
+                金融效率、免於信任、保障隱私，<br />必定是人類社會未來發展的趨勢。<br />
               </p>
             </div>
           </div>

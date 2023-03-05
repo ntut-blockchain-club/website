@@ -9,12 +9,12 @@ function Join() {
                     開始對區塊鏈感興趣了嗎?想了解更多與區塊鏈相關的資訊嗎?加入我們社團吧！除了每週二都會有的社課外，我們還會不定時送出活動票券，讓各位可以有更多的收益！<br/>
                     無論是區塊鏈新手，或是老練的韭菜，都歡迎加入到北科大區塊鏈社團！<br/>
                     你可以選擇使用虛擬貨幣，或是新台幣支付社費。<br/>
-                    我們的社費是以學期為單位，學生為 700 新台幣或 25 USDt/USDc, 而非學生則為 1200 新台幣或 40 USDt/USDc。<br/>
-                    請注意，新台幣僅接受現金支付，而 USDt/USDc 僅接受 Polygon 網路。<br/>
+                    我們的社費是以學期為單位，學生為 700 新台幣或 20 USDt/USDc, 而非學生則為 1200 新台幣或 40 USDt/USDc。<br/>
+                    請注意，新台幣僅接受現金支付，而 USDt/USDc 僅接受 Arbitrum 網路。<br/>
                     準備好了嗎？<br/>
 
                 </p>
-                <a className="join_us" href="https://forms.gle/fbDvcPQkeDDKgzZJ8"> 加入我們吧！</a>
+                <a className="join_us" href="https://forms.gle/LGU7sS4RRSGDtBxE7"> 加入我們吧！</a>
                 </div>
         </div>
     );
