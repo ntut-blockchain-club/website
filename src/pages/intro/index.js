@@ -4,7 +4,7 @@ function Intro() {
         <div className="intro_container">
             <div className="text">
                 <h1>關於我們</h1>
-                <h1>about US</h1>
+                <h1>About US</h1>
                 <p>
                 2008 年，比特幣白皮書與我們初次見面。2021 年，它的價格達到六萬九千美元。
                 從無到有，區塊鏈技術的成長離不開越來越多的開發者。

@@ -1,7 +1,7 @@
 import "./index.scss";
 import { useState } from "react";
 import Nav_menu_list from "./Nav_menu_list";
-import Ntut_Logo from '../../assets/images/ntut_logo_v2.png';
+import Ntut_Logo from '../../assets/images/ntut_blockchain_club_logo_v3_white.svg';
 function Nav() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);

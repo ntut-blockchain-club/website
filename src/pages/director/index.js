@@ -5,13 +5,14 @@ import daaab from "../../assets/images/directors/daaab.jpeg";
 import kmori from "../../assets/images/directors/kmori.jpg";
 import erina from "../../assets/images/directors/erina.jpg";
 import grapefruit from "../../assets/images/directors/grapefruit.jpg";
+import ken from "../../assets/images/directors/ken.jpg";
 
 function Directors() {
   return (
     <div className="directors_container">
       <div className="text">
         <h1>顧問與歷任社長</h1>
-        <h1>Consultant and Past Presidents</h1>
+        <h1>Consultant and Previous Presidents</h1>
         <div className="director_card_container">
           <div className="director">
             <img src={daaab} alt="" />
@@ -76,6 +77,17 @@ function Directors() {
               <p>
                 人類社會就如同區塊鏈的共識，<br />在不同的想法中遵循最長鏈原則；<br />
                 金融效率、免於信任、保障隱私，<br />必定是人類社會未來發展的趨勢。<br />
+              </p>
+            </div>
+          </div>
+          <div className="director">
+            <img src={ken} alt="" />
+            <div className="director_info">
+              <h2>第四任社長</h2>
+              <h2>梁富財 <sub>Ken</sub></h2>
+              <p>
+                BUIDL together, <br />
+                BUIDL for the future. <br />
               </p>
             </div>
           </div>

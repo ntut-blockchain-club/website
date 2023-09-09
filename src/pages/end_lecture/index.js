@@ -7,6 +7,7 @@ function End_lecture() {
         <h1>以往課程</h1>
         <h1>Previous Lecture</h1>
       </div>
+      <p >按學期與課程時間排序</p>
       <Images />
     </div>
   );
