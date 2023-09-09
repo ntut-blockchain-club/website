@@ -45,7 +45,7 @@ import React from 'react';
 
 function Images() {
   // 取得所有照片的檔名
-  const photoFilenames = require.context('./', false, /\.(jpg|jpeg|png)$/);
+  const photoFilenames = require.context('./', false, /\.(jpg|jpeg|png|webp)$/);
 
   return (
     <div className="end_lecture_photos">
