@@ -1,0 +1,23 @@
+.member_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  line-height: 1.2;
+  width: 150px;
+  flex:1;
+  margin: 20px;
+  .member_card {
+    .member_image {
+      width: 100px;
+      height: 100px;
+      border-radius: 60px;
+      margin: {
+        bottom:10px;
+      };
+      object-fit: cover;
+    }
+  }
+}

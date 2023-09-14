@@ -1,11 +1,11 @@
 import "./index.scss";
-import Member_card from "../../components/Member_card";
+import MemberCard from "../../components/MemberCard";
 
-import daaab from "../../assets/images/directors/daaab.jpeg";
-import kmori from "../../assets/images/directors/kmori.jpg";
-import erina from "../../assets/images/directors/erina.jpg";
-import grapefruit from "../../assets/images/directors/grapefruit.jpg";
-import ken from "../../assets/images/directors/ken.jpg";
+import daaab from "../../assets/images/directors/daaab.webp";
+import kmori from "../../assets/images/directors/kmori.webp";
+import erina from "../../assets/images/directors/erina.webp";
+import grapefruit from "../../assets/images/directors/grapefruit.webp";
+import ken from "../../assets/images/directors/ken.webp";
 
 function Directors() {
   return (
@@ -22,9 +22,9 @@ function Directors() {
                 葛如鈞 <sub>寶博士</sub>
               </h2>
               <p>
-                歷史是共創，社會是共識；當然，也可能反過來。<br />
-                社團是社會的縮影，也是共創與共識，最後放大到整個宇宙。<br />
-                見自己，見天地，見眾生；建自己，建天地，建眾生；元節點，元網路，元宇宙。
+                歷史是共創，社會是共識；<br />當然，也可能反過來。<br />
+                社團是社會的縮影，<br />也是共創與共識，<br />最後放大到整個宇宙。<br />
+                見自己，見天地，見眾生；<br />建自己，建天地，建眾生；<br />元節點，元網路，元宇宙。
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ function Directors() {
               <h2>第一任社長</h2>
               <h2>陳又萍</h2>
               <p>
-                Hello,consensus！ <br />
+                Hello, consensus! <br />
                 區塊鏈的世界大門已經敞開
                 <br />
                 歡迎加入！
@@ -87,7 +87,7 @@ function Directors() {
               <h2>梁富財 <sub>Ken</sub></h2>
               <p>
                 BUIDL together, <br />
-                BUIDL for the future. <br />
+                BUIDL for our future. <br />
               </p>
             </div>
           </div>

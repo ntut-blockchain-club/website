@@ -1,5 +1,5 @@
 import "./index.scss";
-import Member_card from "../../components/Member_card";
+import MemberCard from "../../components/MemberCard";
 function Crew_intro() {
   return (
     <div className="crew_container">
@@ -7,41 +7,55 @@ function Crew_intro() {
         <h1>團隊成員</h1>
         <h1>Crew Member</h1>
         <div className="member_card_container">
-          <Member_card
-            member_name="ken"
+          <MemberCard
+            imgName="ryan"
             title="社長"
-            name="Ken"
-            discription="朝全端開發者前進中。"
+            name="Ryan"
+            // discription="北科大 土木工程系"
           />
-          <Member_card
-            member_name="calvin"
+          <MemberCard
+            imgName="martha"
             title="副社長"
-            name="Calvin"
-            discription="輔仁大學意大利文系"
+            name="瑪莎"
+            // discription="北科大 資訊與財金管理系"
           />
-          <Member_card
-            member_name="east"
-            title="幹部"
-            name="東東"
-            discription="輔仁大學"
+        </div>
+        <div className="member_card_container">
+          <MemberCard
+            imgName="rkun"
+            title="活動長"
+            name="Rkun"
+            // discription="北科大 土木工程系"
           />
-          <Member_card
-            member_name="ke"
-            title="幹部"
-            name="小柯"
-            discription="台科大"
+          <MemberCard
+            imgName="orange"
+            title="財務長"
+            name="橙橙"
+            // discription="北科大 資訊與財金管理系"
           />
-          <Member_card
-            member_name="rich"
-            title="幹部"
+          <MemberCard
+            imgName="jason"
+            title="公關長"
+            name="Jason"
+            // discription="北科大 土木工程系"
+          />
+          <MemberCard
+            imgName="rich"
+            title="學術長"
             name="桓齊"
-            discription="北科大資工所"
+            // discription="北科大 資工所"
           />
-          <Member_card
-            member_name="trillion"
-            title="幹部"
-            name="兆宜"
-            discription="北科大資財所"
+          <MemberCard
+            imgName="ken"
+            title="技術顧問"
+            name="Ken"
+            // discription="北科大 資訊與財金管理系"
+          />
+          <MemberCard
+            imgName="henry"
+            title="經營顧問"
+            name="Henry"
+            // discription="台科大 資訊工程系"
           />
         </div>
       </div>
