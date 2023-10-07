@@ -9,8 +9,6 @@ function Banner() {
         <div className="banner_button">
         <a href="https://forms.gle/gNjqoF6bg8FpzihL8">
           加入我們!</a>
-        <a href="https://www.accupass.com/event/2309141725212106396402">
-          報名茶會!</a>
           </div>
         </div>
       </div>

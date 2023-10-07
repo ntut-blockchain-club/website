@@ -21,7 +21,7 @@
       justify-content: center;
       align-items: center;
       color: #fff;
-      font-size: 2.5rem;
+      font-size: 2rem;
       font-weight: bold;
       text-align: center;
 
@@ -33,6 +33,7 @@
       .banner_button {
         display:flex;
         justify-content: center;
+        margin-top: 20px;
         a {
           color: #fff;
           font-size: 1.5rem;
@@ -57,17 +58,13 @@
 
       }
 
-      h2 {
-
-      margin-bottom: 30px;
-      }
 
     }
   }
   @media screen and (max-width: 768px) {
     .row {
       .title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
     }
     .banner_button {
@@ -75,7 +72,7 @@
       flex-direction: column;
       align-items: center;
       margin: {
-        top:70px;
+        top:20px;
       };
       a{
       margin: {
