@@ -6,6 +6,7 @@ import kmori from "../../assets/images/directors/kmori.webp";
 import erina from "../../assets/images/directors/erina.webp";
 import grapefruit from "../../assets/images/directors/grapefruit.webp";
 import ken from "../../assets/images/directors/ken.webp";
+import ryan from "../../assets/images/directors/ryan.webp";
 
 function Directors() {
   return (
@@ -88,6 +89,16 @@ function Directors() {
               <p>
                 BUIDL together, <br />
                 BUIDL for our future. <br />
+              </p>
+            </div>
+          </div>
+          <div className="director">
+            <img src={ryan} alt="" />
+            <div className="director_info">
+              <h2>第五任社長</h2>
+              <h2>謝和哲 <sub>Ryan</sub></h2>
+              <p>
+              
               </p>
             </div>
           </div>

@@ -12,10 +12,9 @@ function Join() {
                     我們的社費是以學期為單位，學生為 700 新台幣或 20 USDt, 而非學生則為 1500 新台幣或 45 USDt。<br/>
                     請注意，新台幣僅接受現金支付，而 USDt 僅接受 Arbitrum 網路。<br/>
                     準備好了嗎？<br/>
-
                 </p>
-                <a className="join_us" href="https://forms.gle/gNjqoF6bg8FpzihL8"> 加入我們吧！</a>
-                </div>
+                <a className="join_us" href="https://forms.gle/ujojLJjK2A7cf5jQ7" target="_blank" rel="noopener noreferrer"> 加入我們吧！</a>
+            </div>
         </div>
     );
 }

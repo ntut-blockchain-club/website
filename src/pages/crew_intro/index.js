@@ -8,9 +8,9 @@ function Crew_intro() {
         <h1>Crew Member</h1>
         <div className="member_card_container">
           <MemberCard
-            imgName="ryan"
+            imgName="kevin"
             title="社長"
-            name="Ryan"
+            name="Kevin"
             // discription="北科大 土木工程系"
           />
           <MemberCard
@@ -22,28 +22,10 @@ function Crew_intro() {
         </div>
         <div className="member_card_container">
           <MemberCard
-            imgName="rkun"
+            imgName="pai"
             title="活動長"
-            name="Rkun"
+            name="Pai"
             // discription="北科大 土木工程系"
-          />
-          <MemberCard
-            imgName="orange"
-            title="財務長"
-            name="橙橙"
-            // discription="北科大 資訊與財金管理系"
-          />
-          <MemberCard
-            imgName="jason"
-            title="公關長"
-            name="Jason"
-            // discription="北科大 土木工程系"
-          />
-          <MemberCard
-            imgName="rich"
-            title="學術長"
-            name="桓齊"
-            // discription="北科大 資工所"
           />
           <MemberCard
             imgName="ken"
@@ -52,9 +34,9 @@ function Crew_intro() {
             // discription="北科大 資訊與財金管理系"
           />
           <MemberCard
-            imgName="henry"
+            imgName="ryan"
             title="經營顧問"
-            name="Henry"
+            name="Ryan"
             // discription="台科大 資訊工程系"
           />
         </div>

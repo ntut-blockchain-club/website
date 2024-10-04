@@ -23,14 +23,15 @@
         font-weight: bold;
         text-decoration: none;
         position: relative;
-        margin-right: 10px;
+        margin: 0 auto 10px auto; // Center alignment
         border-radius: 40px;
         background: #57BA70;
         max-width: 150px;
-        flex: 1;
+        display: block; // Ensure it's a block element
+        text-align: center; // Center text inside the button
         padding: {
-            top: 1rem;
-            bottom: 1rem;
+            top: 0.5rem;
+            bottom: 0.5rem;
             left: 3rem;
             right: 3rem;
         }

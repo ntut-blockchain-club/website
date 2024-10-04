@@ -7,7 +7,7 @@ function Banner() {
         <h1>台北科技大學 區塊鏈研究社</h1>
         <h2>NTUT Blockchain Club</h2>
         <div className="banner_button">
-        <a href="https://forms.gle/gNjqoF6bg8FpzihL8">
+        <a href="https://forms.gle/ujojLJjK2A7cf5jQ7" target="_blank" rel="noopener noreferrer">
           加入我們!</a>
           </div>
         </div>
