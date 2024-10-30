@@ -33,12 +33,6 @@ function Crew_intro() {
             name="Ken"
             // discription="北科大 資訊與財金管理系"
           />
-          <MemberCard
-            imgName="ryan"
-            title="經營顧問"
-            name="Ryan"
-            // discription="台科大 資訊工程系"
-          />
         </div>
       </div>
     </div>
